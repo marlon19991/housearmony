@@ -1,6 +1,5 @@
 import { Profile } from '@/types/profile';
-
-const API_BASE_URL = 'http://localhost:8080';
+import { API_BASE_URL } from '@/config/api';
 
 export async function getProfiles(): Promise<Profile[]> {
     const response = await fetch(`${API_BASE_URL}/api/profiles`);

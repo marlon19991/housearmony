@@ -1,0 +1,22 @@
+# Ignore build artifacts
+build/
+.gradle/
+bin/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Ignore local config
+application-local.properties
+.env
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore documentation
+README.md
