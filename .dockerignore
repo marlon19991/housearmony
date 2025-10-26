@@ -1,0 +1,30 @@
+# Frontend files (not needed for backend build)
+frontend/
+
+# Backend build artifacts
+backend/build/
+backend/.gradle/
+backend/bin/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+DEPLOYMENT.md
+
+# Environment files
+.env
+.env.local
+backend/application-local.properties
+
+# Node modules (if any)
+node_modules/
